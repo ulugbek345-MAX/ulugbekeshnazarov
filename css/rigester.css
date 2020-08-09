@@ -1,0 +1,47 @@
+#section {
+    margin-top: 330px;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#section .flex-saction {
+    background: #fff;
+    width: 500px;
+    margin: 20px;
+    height: 200px;
+    padding: 40px 50px;
+    box-shadow: 0px 4px 25px 10px green;
+}
+
+/* flex section h1 star  */
+.flex-saction h1 {
+    width: auto;
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px green;
+}
+
+/* flex section h1 end */
+
+/* flex section a(link) start*/
+.flex-saction a {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* flex section a(link) end*/
+
+/*flex section a{button} start*/
+.flex-saction a .btn {
+    margin-top: 50px;
+    margin-left: 30px;
+    background: black;
+    color: aqua;
+    border: none;
+    width: 100%;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 20px 10px aqua;
+}
